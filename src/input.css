@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mb-lg-0 {
+  margin: 0 auto;
+  /* float:right: */
+}
+.navbar-brand{
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+.header1 {
+  min-height:100vh;
+  width: 100%;
+  height: auto;
+  background: #e1ebfa;
+}
+#imghd {
+  margin: 0 auto;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  width: 75%;
+}
+.tw-body-font {
+  margin: 0 auto;
+}
+
+.navbar {
+  wdth: 100%;
+}
+@media (max-width: 991px) {
+  #flex {
+    flex-direction: column;
+  }
+}
+#widthdiv {
+  width: 100%;
+  /* text-align: center; */
+}
+.tw-text-3xl {
+  line-height: 12vmin;
+  font-size: 4rem;
+  font-family: ui-monospace;
+}
+.nav124 {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 523px) {
+  .brclass {
+    display: none;
+  }
+
+  #myclass1 {
+    line-height: 1.5em;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .tw-rounded {
+    width: 100%;
+  }
+}
+.tw-font-Playwrite {
+  font-family: "Playwrite HR Lijeva", cursive;
+  color: #800d33;
+  font-style: italic;
+  /* border-bottom: 1px solid; */
+  box-shadow: inset 6px -11px 15px -1px #b4cefe;
+  overflow-y: overlay;
+  background: none;
+  font-size: 5vmin;
+}
+
+#knasskn {
+    font-family: emoji;
+    /* color: red; */
+    width: 100%;
+    font-weight: bolder;
+}
+
+/* #navbarSupportedContent{
+  margin-top: 2em;
+  margin-left: 30em;
+  justify-content: spec-between;
+  
+} */
+
+#ul-hedear{
+  margin-top: 2em;
+  margin-left: 2em;
+  justify-content: spec-between;
+  
+}
+.font{
+  font-family: "Satisfy", cursive;
+  font-size: 5rem;
+  color: red;
+  background: linear-gradient(120deg, #fff3cd, #fff3cd);
+  background-position: 0 80%;
+  background-size: 100% 20%;
+  background-repeat: no-repeat;
+}
