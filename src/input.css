@@ -2,103 +2,164 @@
 @tailwind components;
 @tailwind utilities;
 
-.mb-lg-0 {
-  margin: 0 auto;
-  /* float:right: */
+.mb-lg-0{
+    margin : 0 auto;
 }
-.navbar-brand{
-    margin-top: 1.5em;
-    margin-left: 1em;
+.header{
+    background : #e1ebfa;
+    width : 100%;
+    padding-bottom: 2rem;
 }
-.header1 {
-  min-height:100vh;
-  width: 100%;
-  height: auto;
-  background: #e1ebfa;
+.img-header{
+    width: 90%;
+    border-radius: 78% 22% 36% 64% / 30% 52% 48% 70%  ;
 }
-#imghd {
-  margin: 0 auto;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  width: 75%;
+.bsb-tpl-bg-yellow{
+    background: #f2e9ac;
 }
-.tw-body-font {
-  margin: 0 auto;
+.bsb-tpl-bg-green {
+    background: #caf0c7;
 }
-
-.navbar {
-  wdth: 100%;
+.bsb-tpl-bg-pink{
+    background: #ffe9f3;
 }
-@media (max-width: 991px) {
-  #flex {
-    flex-direction: column;
-  }
+.bsb-tpl-bg-cyan{
+    background: #cdf7f6
 }
-#widthdiv {
-  width: 100%;
-  /* text-align: center; */
+.bgcolor{
+    background-image:  linear-gradient(120deg, #b8e1ff, #b8e1ff)!important;
+    
 }
-.tw-text-3xl {
-  line-height: 12vmin;
-  font-size: 4rem;
-  font-family: ui-monospace;
+.linear-g{
+    background: linear-gradient( 120deg , #fff3cd, #fff3cd );
+    background-position: 0 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    font-size: larger;
+    color: rgba(168, 0, 0, 1);
+    font-family: "Satisfy", cursive;
 }
-.nav124 {
-  width: 100%;
-  max-width: 1320px;
-  margin: 0 auto;
+svg{
+    display: inline !important;
 }
-@media screen and (max-width: 523px) {
-  .brclass {
-    display: none;
-  }
-
-  #myclass1 {
-    line-height: 1.5em;
-    font-size: 2rem;
-  }
+@media (max-width: 991px){
+    #flex{
+        flex-direction: column;
+    }
 }
-@media screen and (max-width: 430px) {
-  .tw-rounded {
+.section-2{
+    background: url(https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg) ,  rgba(0, 0, 0, .1  );
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
+    height: 85vh;
+    background-color: rgba(var(--bsb-overlay-bg-color), var(--bsb-overlay-opacity));
+    bottom: 0;
+    position: relative;
+    padding-top: .2vh;
+    background-attachment: fixed;
+}
+.text-text{
+    background: linear-gradient( 120deg , #e4a0a1, #e4a0a1 );
+    background-position: 0 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    color: #a30000;
+    font-size: larger;
+}
+.join-us{
+    background-color: #a30000;
+    color: white;
+}
+.section2{
+    background: url("https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg") rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 83vh;
+    background-attachment: fixed;
+}
+
+.img3{
+    width: 25%;
+}
+
+.btn2{
+    background-color: #2f3f9f;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.btn1{
+    background-color:#a30000;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.sec10{
+background-color: #f7f4e9;
+}
+
+#sec11{
+  
+}
+#scrollspyPricing{
+background-color: #fcf6f0;
+}
+
+.right-001{
+    opacity: 0;
+    transition: .5s;
+    color: white;
+}
+.disable:hover .right-001{
+    opacity: 1;
+}
+.image-001{
+    transform: scale(1.3);
+    transition: .4s all;
+}
+.disable:hover .image-001{
+    transform: scale(1.1);
+}
+.sub:hover:hover{
+    background: rgba(0, 0, 0, 0.63);
+}
+@media (max-width:500px) {
+    .clas-res{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:991px) {
+    .text-px{
+        text-align: center;
+    }
+}
+.width{
+    width: 90%;
+}
+
+@media (max-width:320px) {
+    .img3{
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+  .div-main{
+    width: 16rem;
+    margin:0 auto;
   }
 }
-.tw-font-Playwrite {
-  font-family: "Playwrite HR Lijeva", cursive;
-  color: #800d33;
-  font-style: italic;
-  /* border-bottom: 1px solid; */
-  box-shadow: inset 6px -11px 15px -1px #b4cefe;
-  overflow-y: overlay;
-  background: none;
-  font-size: 5vmin;
-}
+    
 
-#knasskn {
-    font-family: emoji;
-    /* color: red; */
-    width: 100%;
-    font-weight: bolder;
-}
 
-/* #navbarSupportedContent{
-  margin-top: 2em;
-  margin-left: 30em;
-  justify-content: spec-between;
-  
-} */
-
-#ul-hedear{
-  margin-top: 2em;
-  margin-left: 2em;
-  justify-content: spec-between;
-  
-}
-.font{
-  font-family: "Satisfy", cursive;
-  font-size: 5rem;
-  color: red;
-  background: linear-gradient(120deg, #fff3cd, #fff3cd);
-  background-position: 0 80%;
-  background-size: 100% 20%;
-  background-repeat: no-repeat;
-}
